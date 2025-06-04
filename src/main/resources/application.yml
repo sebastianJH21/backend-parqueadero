@@ -36,9 +36,12 @@ application:
 
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-d0tovf6mcj7s73doo93g-a.oregon-postgres.render.com:5432/db_parknet
-    username: parknet
-    password: JrBQlLN4rjye0DO0XpdTSpzvblig8fqs
+  
+    url: jdbc:postgresql://postgres:cssj2024*@db.ngxligfateofstqtrrrn.supabase.co:5432/postgres
+    username: postgres
+    password: cssj2024*
+    # url: jdbc:postgresql://dpg-d0tovf6mcj7s73doo93g-a.oregon-postgres.render.com:5432/db_parknet
+    # password: JrBQlLN4rjye0DO0XpdTSpzvblig8fqs
     driver-class-name: org.postgresql.Driver
 
   jpa:
